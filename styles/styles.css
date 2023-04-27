@@ -70,17 +70,20 @@
 .btn-green {
 	background-color: var(--green);
 	color:var(--white-color);
+	width: 100%;
+	border: 3px solid var(--green);
 }
 
 .btn-green:hover {
-	background-color: var(--dark-green)
+	background-color: var(--dark-green);
+	border: 3px solid var(--dark-green);
 }
 
 h1 {
 	font-family: 'Libre Baskerville', serif;
 }
 
-p, li, a {
+p, li, a, fieldset, input, *::placeholder {
 	font-family: var(--text-font);
 	font-weight: 600;
 }
@@ -109,9 +112,10 @@ p, li, a {
 .row-grid {
 	display: grid;
 	gap: var(--grid-gap);
+	grid-auto-flow: row;
 }
 
-.row-grid-3-50 {
+.row-grid-2-50 {
 	grid-template-columns: 1fr 1fr;
 }
 
