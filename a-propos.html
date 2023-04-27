@@ -22,12 +22,14 @@
 		<!-- CSS -->
 		<link rel="stylesheet" href="styles/styles.css">
 		<link rel="stylesheet" href="styles/reset.css">
+		<link rel="stylesheet" href="styles/pages.css">
+		<link rel="stylesheet" href="styles/a-propos.css">
 
 		<title>A propos</title>
 	</head>
 
 	<body>
-		<header>
+		<header style="background-color: var();">
 			<div>
 				<p class="header__icon"><a href="index.html" title="Lien vers la page d'accueil">Jade<br>
 				Derville.</a></p>
@@ -43,8 +45,25 @@
 		</header>
 
 		<main>
-			<section class="hero full-height df-flex-end">
-				
+			<section id="about" class="full-height">
+				<div class="row mb-2 text-align-center">
+					<p class="subtitle">A propos</p>
+					<h1>En savoir plus a propos de moi</h1>
+					<p class="mb-3">Découvez en plus sur moi et qui je suis !</p>
+					<hr>
+				</div>
+				<div class="row row-grid row-grid-3-50">
+					<div class="column">
+						<h2 class="mb-2">Hello !</h2>
+
+						<p class="mb-2">Je m'appelle Jade Derville et je suis une étudiante passionnée de cinéma. Depuis mon plus jeune âge, j'ai été fascinée par la magie des films et leur capacité à transporter les spectateurs dans des mondes imaginaires. Actuellement, je suis en train de poursuivre mes études en cinéma et je suis déterminée à apprendre tout ce que je peux sur l'art de la réalisation de films et à développer ma propre voix en tant que cinéaste.</p>
+
+						<p class="mb-2">Je suis constamment à la recherche de nouvelles idées créatives et de nouvelles façons de raconter des histoires à travers l'objectif de ma caméra. J'aime travailler en équipe et collaborer avec d'autres personnes créatives pour réaliser des projets cinématographiques passionnants. Avec une telle passion pour le cinéma, j'ai l'espoir d'avoir un avenir brillant dans l'industrie cinématographique et de créer des films qui inspirent et touchent les gens de toutes les cultures et de tous les horizons.</p>
+
+						<a href="" class="btn btn-green" role="button" title="Télécharger mon CV">Télécharger mon CV</a>
+					</div>
+					<div class="column about__picture"></div>
+				</div>
 			</section>
 		</main>
 
