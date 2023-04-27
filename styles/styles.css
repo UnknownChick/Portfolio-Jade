@@ -24,8 +24,16 @@
 	--grid-gap: 2.5rem;
 }
 
+.title {
+	font-family: var(--title-font);
+}
+
 .section {
 	padding: 5rem 0;
+}
+
+.mb-2 {
+	margin-bottom: 2rem !important;
 }
 
 .btn {
@@ -205,4 +213,51 @@ header nav ul li a:hover {
 
 .hero .btn:not(:last-child) {
 	margin-bottom: 1.25rem;
+}
+
+
+/* FOOTER */
+footer {
+	padding: 5rem 0;
+	background-color: var(--dark-green);
+}
+
+.footer__icon {
+	display: flex;
+	justify-content: center;
+}
+
+.footer__icon a {
+	font-family: var(--title-font);
+	color: var(--white-color);
+	font-size: 3rem;
+	font-weight: 900;
+}
+
+.footer__social-icon ul {
+	display: flex;
+	justify-content: center;
+}
+
+.footer__social-icon ul li {
+	margin: 0 1.25rem;
+}
+
+.footer__social-icon ul li i {
+	margin-right: 0.5rem;
+}
+
+.footer__social-icon ul li a {
+	color: var(--white-color);
+	vertical-align: middle;
+	transition: all 200ms ease-in-out;
+}
+
+.footer__social-icon ul li a:hover {
+	color: var(--dark-color);
+}
+
+.footer__copyright {
+	color: var(--white-color);
+	text-align: center;
 }
