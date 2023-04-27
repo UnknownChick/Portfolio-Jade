@@ -165,7 +165,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-	color: var(--green);
+	color: var(--black-color);
 }
 
 
