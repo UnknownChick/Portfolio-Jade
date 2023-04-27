@@ -99,7 +99,7 @@ header {
 	justify-content:space-between;
 	align-items: center;
 	background-color: transparent;
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	z-index: 10;
 }
@@ -137,6 +137,7 @@ header nav ul li a:hover {
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	position: relative;
 	padding: 10rem 0;
 }
@@ -175,7 +176,16 @@ header nav ul li a:hover {
 	position: absolute;
 	top: 0;
 	left: 0;
-	opacity: 0.8;
+}
+
+.shadow-overlay {
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-color: rgb(17, 17, 17);
 }
 
 .hero__social-icon {
