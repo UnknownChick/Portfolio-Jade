@@ -99,6 +99,7 @@ p, li, a, fieldset, input, *::placeholder {
 
 .row {
 	width: var(--wrapper-width);
+	max-width: 80%;
 	margin: 0 auto;
 	z-index: 5;
 	position: relative;

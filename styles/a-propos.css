@@ -1,3 +1,4 @@
+/* A PROPOS */
 .about__picture {
 	background-image: url('../images/photo-jade.jpg');
 	background-position: top;
@@ -6,13 +7,12 @@
 	border-radius: 2rem 0 2rem 0;
 }
 
-
+/* EXPERIENCE */
 .experience__item {
 	position: relative;
 	padding-left: 3rem;
 	border-left: 1px solid var(--light-green);
 	padding-bottom: 2rem;
-	
 }
 
 .experience__item::before {
@@ -39,17 +39,31 @@
 	left: -1rem;
 }
 
-.experience__duration {
+.experience__duration, .formation__duration {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: 700;
-	margin-bottom: 1.25rem;
+	margin-bottom: 0.5rem;
 }
 
 .experience__job {
 	margin-bottom: 1.25rem;
 }
 
+/* FORMATION */
+.formation__item {
+	text-align: center;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+	width: max-content;
+	margin: auto;
+	padding-bottom: 1.25rem;
+}
+
+.formation__item:not(:last-child) {
+	margin-bottom: 2rem;
+}
+
+/* FILM */
 .film__image {
 	position: relative;
 	z-index: 5;margin-bottom: 1.25rem;
