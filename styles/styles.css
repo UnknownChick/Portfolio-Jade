@@ -25,14 +25,6 @@
 	--grid-gap: 2.5rem;
 }
 
-.title {
-	font-family: var(--title-font);
-}
-
-.section {
-	padding: 5rem 0;
-}
-
 .mb-1-25 {
 	margin-bottom: 1.25rem !important;
 }
@@ -120,6 +112,10 @@ p, li, a, fieldset, input, *::placeholder {
 
 .row-grid-2-50 {
 	grid-template-columns: 1fr 1fr;
+}
+
+.row-grid-3-33 {
+	grid-template-columns: 1fr 1fr 1fr;
 }
 
 .row-grid-4-25 {
