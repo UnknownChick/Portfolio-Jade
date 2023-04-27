@@ -49,3 +49,39 @@
 .experience__job {
 	margin-bottom: 1.25rem;
 }
+
+.film__image {
+	position: relative;
+	z-index: 5;margin-bottom: 1.25rem;
+}
+
+.film__image:hover .film__image__overlay {
+	opacity: 1;
+}
+
+.film__image__overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.75);
+	opacity: 0;
+	transition: all 300ms ease-in-out;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	text-align: center;
+	color: var(--black-color);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	z-index: 10;
+}
+
+.film__content {
+	text-align: center;
+}
+
+.film__content h3 {
+	margin-bottom: 0.5rem;
+}

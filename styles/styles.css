@@ -19,6 +19,7 @@
 
 	/* Line height */
 	--global-line-height: 1.5;
+	--title-line-height: 1.25;
 
 	--wrapper-width: 1280px;
 	--grid-gap: 2.5rem;
@@ -79,8 +80,10 @@
 	border: 3px solid var(--dark-green);
 }
 
-h1 {
-	font-family: 'Libre Baskerville', serif;
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--title-font);
+	line-height: var(--title-line-height);
 }
 
 p, li, a, fieldset, input, *::placeholder {
@@ -117,6 +120,10 @@ p, li, a, fieldset, input, *::placeholder {
 
 .row-grid-2-50 {
 	grid-template-columns: 1fr 1fr;
+}
+
+.row-grid-4-25 {
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .row-grid-2-66-33 {
