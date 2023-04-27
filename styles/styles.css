@@ -32,6 +32,10 @@
 	padding: 5rem 0;
 }
 
+.mb-1-25 {
+	margin-bottom: 1.25rem !important;
+}
+
 .mb-2 {
 	margin-bottom: 2rem !important;
 }

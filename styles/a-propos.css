@@ -1,7 +1,51 @@
 .about__picture {
 	background-image: url('../images/photo-jade.jpg');
-	background-position: center;
+	background-position: top;
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-radius: 2rem 0 2rem 0;
+}
+
+
+.experience__item {
+	position: relative;
+	padding-left: 3rem;
+	border-left: 1px solid var(--light-green);
+	padding-bottom: 2rem;
+	
+}
+
+.experience__item::before {
+	content: '';
+	width: 1rem;
+	height: 1rem;
+	border-radius: 100%;
+	background-color: var(--dark-green);
+	z-index: 10;
+	position: absolute;
+	top: 0.5rem;
+	left: -0.5rem;
+}
+
+.experience__item::after {
+	content: '';
+	width: 2rem;
+	height: 2rem;
+	border-radius: 100%;
+	background-color: var(--light-green);
+	z-index: 5;
+	position: absolute;
+	top: 0;
+	left: -1rem;
+}
+
+.experience__duration {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 700;
+	margin-bottom: 1.25rem;
+}
+
+.experience__job {
+	margin-bottom: 1.25rem;
 }
