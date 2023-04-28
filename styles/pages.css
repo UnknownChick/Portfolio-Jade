@@ -1,3 +1,7 @@
+header nav ul li a:hover {
+	color: var(--black-color);
+}
+
 section {
 	padding: 5rem 0;
 }

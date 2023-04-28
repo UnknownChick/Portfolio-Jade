@@ -40,7 +40,7 @@
 .btn {
 	display: block;
 	text-transform: uppercase;
-	padding: 1.25rem;
+	padding: 1.25rem 3rem;
 	font-weight: 600;
 	letter-spacing: 2px;
 	font-family: var(--text-font);
@@ -162,7 +162,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-	color: var(--black-color);
+	color: var(--green);
 }
 
 
